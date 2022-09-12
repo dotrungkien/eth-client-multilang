@@ -50,3 +50,11 @@ cd clients/rust/
 
 cargo run
 ```
+
+### JS
+
+```bash
+cd clients/js/
+yarn
+node index.js
+```

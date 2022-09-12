@@ -12,6 +12,6 @@ a sample of blockchain client in Rust.
 
 - Run
 
-```
+```bash
 cargo run
 ```
