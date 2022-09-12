@@ -6,6 +6,7 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
+dotenv = "0.15.0"
 ethers = { git = "https://github.com/gakonst/ethers-rs",  features = ["abigen"] }
 eyre = "0.6"
 tokio = { version = "1.20.1", features = ["full"] }
