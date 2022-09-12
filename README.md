@@ -6,7 +6,10 @@
 
 ## Prerequisite
 
-- [Foundry](https://github.com/foundry-rs/foundry
+- [Foundry](https://github.com/foundry-rs/foundry)
+- Ethers-rs
+- Ethers.js
+- web3.py
 
 ## Compile & Deploy contract
 
@@ -57,4 +60,14 @@ cargo run
 cd clients/js/
 yarn
 node index.js
+```
+
+### Python
+
+```bash
+cd clients/py/
+
+# recommend to use virtual env to run
+pip install -r requirements.txt
+python main.py
 ```
